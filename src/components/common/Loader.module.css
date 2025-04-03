@@ -1,0 +1,25 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Light beige background for a consistent look */
+  }
+  
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #bec7c9; /* Light beige color for the spinner base */
+    border-top: 6px solid #FF4444; /* Dark earthy color for the spinner tip */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
